@@ -120,8 +120,8 @@ const App = () => {
             <Flame size={12} /> Hot & Ambitious Only
           </div>
           
-          {/* Главный хук в строго 4 строчки */}
-          <h1 className="text-4xl sm:text-5xl md:text-[9.5rem] font-black leading-[1.1] md:leading-[0.8] tracking-tighter text-pink-600 uppercase">
+          {/* Главный хук: Увеличил размер на мобильных через динамический vw */}
+          <h1 className="text-[13vw] sm:text-[10vw] md:text-[9.5rem] font-black leading-[1.1] md:leading-[0.8] tracking-tighter text-pink-600 uppercase">
             <span className="block">You bring</span>
             <span className="block italic font-serif font-light text-pink-300 normal-case lowercase tracking-tight">Content.</span>
             <span className="block">We build</span>
