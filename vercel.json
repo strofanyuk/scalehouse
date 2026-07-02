@@ -1,12 +1,10 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "anastasiia.jpeg", "use": "@vercel/static" }
-  ],
   "routes": [
     { "src": "/anastasiia.jpeg", "dest": "/anastasiia.jpeg" },
+    { "src": "/anna.lepekha", "dest": "/anna.lepekha/index.html" },
+    { "src": "/anna.lepekha/(.*)", "dest": "/anna.lepekha/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
