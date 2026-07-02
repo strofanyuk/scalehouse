@@ -1,10 +1,7 @@
 {
-  "version": 2,
   "cleanUrls": true,
-  "routes": [
-    { "src": "/anastasiia.jpeg", "dest": "/anastasiia.jpeg" },
-    { "src": "/anna.lepekha", "dest": "/anna.lepekha/index.html" },
-    { "src": "/anna.lepekha/(.*)", "dest": "/anna.lepekha/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/anna.lepekha", "destination": "/anna.lepekha/index.html" },
+    { "source": "/anna.lepekha/(.*)", "destination": "/anna.lepekha/$1" }
   ]
 }
