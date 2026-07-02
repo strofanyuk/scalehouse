@@ -1,7 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/anna.lepekha", "destination": "/anna.lepekha/index.html" },
-    { "source": "/anna.lepekha/(.*)", "destination": "/anna.lepekha/$1" }
+    { "source": "/anastasiia.jpeg", "destination": "/anastasiia.jpeg" },
+    { "source": "/slavic.bestie", "destination": "/slavic.bestie/index.html" },
+    { "source": "/slavic.bestie/(.*)", "destination": "/slavic.bestie/$1" }
   ]
 }
