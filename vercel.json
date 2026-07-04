@@ -3,6 +3,8 @@
   "rewrites": [
     { "source": "/anastasiia.jpeg", "destination": "/anastasiia.jpeg" },
     { "source": "/slavic.bestie", "destination": "/slavic.bestie/index.html" },
-    { "source": "/slavic.bestie/(.*)", "destination": "/slavic.bestie/$1" }
+    { "source": "/slavic.bestie/(.*)", "destination": "/slavic.bestie/$1" },
+    { "source": "/alexdorokhina", "destination": "/alexdorokhina/index.html" },
+    { "source": "/alexdorokhina/(.*)", "destination": "/alexdorokhina/$1" }
   ]
 }
