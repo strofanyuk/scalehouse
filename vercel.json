@@ -8,3 +8,4 @@
     { "source": "/alexdorokhina/(.*)", "destination": "/alexdorokhina/$1" }
   ]
 }
+
