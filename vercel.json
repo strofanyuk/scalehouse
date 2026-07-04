@@ -1,6 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/uploads/(.*)", "destination": "/alexdorokhina/uploads/$1" },
+    { "source": "/assets/(.*)", "destination": "/alexdorokhina/assets/$1" },
     { "source": "/anastasiia.jpeg", "destination": "/anastasiia.jpeg" },
     { "source": "/slavic.bestie", "destination": "/slavic.bestie/index.html" },
     { "source": "/slavic.bestie/(.*)", "destination": "/slavic.bestie/$1" },
@@ -8,4 +10,3 @@
     { "source": "/alexdorokhina/(.*)", "destination": "/alexdorokhina/$1" }
   ]
 }
-
